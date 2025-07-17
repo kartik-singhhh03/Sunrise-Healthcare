@@ -35,7 +35,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #73297E;
+  background: #084A26;
   border-radius: 4px;
 }
 
@@ -53,17 +53,17 @@ button:focus,
 input:focus,
 textarea:focus,
 a:focus {
-  outline: 2px solid #73297E;
+  outline: 2px solid #084A26;
   outline-offset: 2px;
 }
 
 /* Custom gradient backgrounds */
 .gradient-bg {
-  background: linear-gradient(135deg, #73297E 0%, #72297D 50%, #BF9DC1 100%);
+  background: linear-gradient(135deg, #084A26 0%, #72297D 50%, #BF9DC1 100%);
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #73297E 0%, #78C43E 100%);
+  background: linear-gradient(135deg, #084A26 0%, #78C43E 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

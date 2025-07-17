@@ -31,7 +31,7 @@ const GetInvolved = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-[#78C43E] to-[#73297E]">
+    <section className="py-20 bg-gradient-to-br from-[#78C43E] to-[#084A26]">
       <div className="container mx-auto px-6">
         <motion.div
           ref={ref}
@@ -60,14 +60,14 @@ const GetInvolved = () => {
               className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center hover:bg-white/20 transition-all duration-300"
             >
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                <opportunity.icon className="w-8 h-8 text-[#73297E]" />
+                <opportunity.icon className="w-8 h-8 text-[#084A26]" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">{opportunity.title}</h3>
               <p className="text-white/90 mb-6 leading-relaxed">{opportunity.description}</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white text-[#73297E] px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-200"
+                className="bg-white text-[#084A26] px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-200"
               >
                 {opportunity.action}
               </motion.button>
@@ -87,7 +87,7 @@ const GetInvolved = () => {
           <motion.button
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-white text-[#73297E] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transition-all duration-300"
+            className="bg-white text-[#084A26] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transition-all duration-300"
           >
             Contact Us Today
           </motion.button>

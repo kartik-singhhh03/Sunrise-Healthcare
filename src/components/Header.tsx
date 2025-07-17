@@ -51,7 +51,7 @@ const Header = () => {
                 whileHover={{ y: -2 }}
                 className={`font-medium transition-colors duration-200 ${
                   isScrolled 
-                    ? 'text-gray-700 hover:text-[#73297E]' 
+                    ? 'text-gray-700 hover:text-[#084A26]' 
                     : 'text-white hover:text-[#78C43E]'
                 }`}
               >
@@ -91,13 +91,13 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="block py-2 text-gray-700 hover:text-[#73297E] transition-colors"
+                className="block py-2 text-gray-700 hover:text-[#084A26] transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {item.name}
               </a>
             ))}
-            <button className="w-full mt-4 bg-gradient-to-r from-[#73297E] to-[#72297D] text-white py-2 rounded-full font-medium">
+            <button className="w-full mt-4 bg-gradient-to-r from-[#084A26] to-[#72297D] text-white py-2 rounded-full font-medium">
               Get Support
             </button>
           </motion.div>

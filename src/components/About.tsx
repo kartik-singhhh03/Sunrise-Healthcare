@@ -56,7 +56,7 @@ const About = () => {
               whileHover={{ y: -10, scale: 1.02 }}
               className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
             >
-              <div className="w-16 h-16 bg-gradient-to-r from-[#73297E] to-[#78C43E] rounded-full flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-[#084A26] to-[#78C43E] rounded-full flex items-center justify-center mb-6">
                 <card.icon className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-[#084A26] mb-4">{card.title}</h3>

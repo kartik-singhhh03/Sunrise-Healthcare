@@ -32,7 +32,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gradient-to-br from-[#084A26] to-[#72297D] text-white">
+    <footer className="bg-gradient-to-br from-[#78C43E] to-[#084A26] text-white">
       <div className="container mx-auto px-6 py-16">
         <motion.div
           ref={ref}

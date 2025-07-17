@@ -61,7 +61,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-[#73297E] to-[#72297D]">
+    <section className="py-20 bg-gradient-to-br from-[#A66B00] to-[#F6D365]">
       <div className="container mx-auto px-6">
         <motion.div
           ref={ref}
@@ -99,11 +99,11 @@ const Testimonials = () => {
               </blockquote>
               
               <div className="flex items-center">
-                <div className="w-16 h-16 bg-gradient-to-r from-[#73297E] to-[#78C43E] rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-[#084A26] to-[#78C43E] rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
                   {testimonials[currentIndex].avatar}
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-[#73297E]">
+                  <h4 className="text-xl font-bold text-[#084A26]">
                     {testimonials[currentIndex].name}
                   </h4>
                   <p className="text-gray-600">{testimonials[currentIndex].role}</p>
