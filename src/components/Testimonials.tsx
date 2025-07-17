@@ -61,7 +61,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-[#A66B00] to-[#F6D365]">
+    <section className="py-20 bg-gradient-to-br from-[#084A26] to-[#78C43E]">
       <div className="container mx-auto px-6">
         <motion.div
           ref={ref}
