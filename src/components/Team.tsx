@@ -29,28 +29,8 @@ const Team = () => {
       bio: 'Dedicated to providing compassionate personal care and helping clients achieve their independence goals.',
       avatar: 'LT',
       specialty: 'Personal Care'
-    },
-    {
-      name: 'Ahmed Hassan',
-      role: 'Therapy Specialist',
-      bio: 'Specialized in occupational therapy with a focus on adaptive technologies and mobility solutions.',
-      avatar: 'AH',
-      specialty: 'Occupational Therapy'
-    },
-    {
-      name: 'Maria Rodriguez',
-      role: 'Family Liaison',
-      bio: 'Supporting families through their journey and ensuring seamless communication between all stakeholders.',
-      avatar: 'MR',
-      specialty: 'Family Support'
-    },
-    {
-      name: 'James Wilson',
-      role: 'Program Manager',
-      bio: 'Overseeing service delivery and ensuring the highest quality of care across all our programs.',
-      avatar: 'JW',
-      specialty: 'Program Management'
     }
+  
   ];
 
   return (
@@ -63,7 +43,7 @@ const Team = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-[#73297E] mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#084A26] mb-6">
             Meet Our Team
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -82,11 +62,11 @@ const Team = () => {
               whileHover={{ y: -10, scale: 1.02 }}
               className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 text-center"
             >
-              <div className="w-24 h-24 bg-gradient-to-r from-[#73297E] to-[#78C43E] rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-6">
+              <div className="w-24 h-24 bg-gradient-to-r from-[#084A26] to-[#78C43E] rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-6">
                 {member.avatar}
               </div>
               
-              <h3 className="text-2xl font-bold text-[#73297E] mb-2">{member.name}</h3>
+              <h3 className="text-2xl font-bold text-[#084A26] mb-2">{member.name}</h3>
               <p className="text-[#78C43E] font-semibold mb-2">{member.role}</p>
               <p className="text-sm text-gray-500 mb-4">{member.specialty}</p>
               <p className="text-gray-600 leading-relaxed">{member.bio}</p>

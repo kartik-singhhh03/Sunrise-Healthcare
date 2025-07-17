@@ -56,7 +56,7 @@ const FAQ = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-[#73297E] mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#084A26] mb-6">
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -75,17 +75,17 @@ const FAQ = () => {
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full bg-gray-50 hover:bg-gray-100 rounded-2xl p-6 text-left transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#73297E]/20"
+                className="w-full bg-gray-50 hover:bg-gray-100 rounded-2xl p-6 text-left transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#084A26]/20"
               >
                 <div className="flex items-center justify-between">
-                  <h3 className="text-lg md:text-xl font-semibold text-[#73297E] pr-4">
+                  <h3 className="text-lg md:text-xl font-semibold text-[#084A26] pr-4">
                     {faq.question}
                   </h3>
                   <motion.div
                     animate={{ rotate: openIndex === index ? 180 : 0 }}
                     transition={{ duration: 0.2 }}
                   >
-                    <ChevronDownIcon className="w-6 h-6 text-[#73297E] flex-shrink-0" />
+                    <ChevronDownIcon className="w-6 h-6 text-[#084A26] flex-shrink-0" />
                   </motion.div>
                 </div>
               </button>
