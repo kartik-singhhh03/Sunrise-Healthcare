@@ -158,10 +158,11 @@ const Footer = () => {
             </div>
             
             <p className="text-white/60 text-center md:text-right">
-              © 2024 NDIS Community Support. All rights reserved.
+              © 2025 NDIS Community Support. All rights reserved.
               <br className="md:hidden" />
               <span className="hidden md:inline"> | </span>
-              Built with ❤️ for our community
+              Built with ❤️ by Kartik Singh
+              
             </p>
           </div>
         </motion.div>
